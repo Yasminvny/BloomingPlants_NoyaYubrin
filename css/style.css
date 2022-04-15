@@ -191,3 +191,17 @@ footer{
     }
 }
 /*Fin media index*/
+
+/*Form bootstrap*/
+.btn-primary{
+    background-color: #7CA68E;
+}
+
+.btn{
+    border: #7CA68E;
+}
+
+.btn-primary:hover{
+    background-color: #7CA68E;
+}
+/*Fin Form Bootstrap*/
