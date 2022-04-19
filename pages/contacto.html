@@ -32,23 +32,29 @@
         </nav>
         <!--Fin menú de navegación-->
     </header>
+
     <section>
-        <form class="form__contacto">
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Nombre</label>
-              <input type="name" class="form-control">
+        <div class="row g-3">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+            </div>
+        </div>
+        <form class="row g-3">
+            <div class="col-sm-7">
+                <input type="text" class="form-control" placeholder="Email" aria-label="Email">
             </div>
             <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">E-mail</label>
-              <input type="email" class="form-control">
-            </div>
-            <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Escriba su consulta aquí.</label>
-                <input type="text" class="form-control">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escriba su consulta aquí"></textarea>
               </div>
-            <button type="submit" class="btn btn-primary">Enviar</button>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </div>
           </form>
-    </section>   
+    </section>
+    
     <!--Inicio Formulario>
     <section class="section__fondo">
         <h2>Contactanos</h2>
