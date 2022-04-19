@@ -160,11 +160,21 @@ footer{
     justify-content: center;
 }
 
-.grid_item_exterior{
+.grid_item_interior, .grid_item_exterior{
     width: 400px;
     height: 400px;
+    box-shadow: 0 4px 8px 0 rgb(124, 166, 142, 0.2);
+    border-radius: 10px;
+    transition: 0.9s;
 }
 /*Fin Grid Sección Interior - Exterior*/
+
+/*Inicio animaciones sección Interior - Exterior*/
+.img_calathea:hover, .img_potus:hover, .img_cactus:hover, .img_asplenium:hover, .img_paloagua:hover, .img_massangeana:hover, .img_dieff:hover, .img_ficus:hover,.img_gomero:hover, .img_alocasia:hover, .img_bananero:hover, .img_monstera:hover, .img_scheff:hover, .img_zamio:hover, .img_duranta:hover, .img_azalea:hover, .img_buxus:hover, .img_latania:hover{
+    opacity: 80%;
+    padding: 5px;
+}
+/*Fin animaciones sección Interior - Exterior*/
 
 /*Inicio media index*/
 @media (max-width: 768px){
