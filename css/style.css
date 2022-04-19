@@ -177,7 +177,7 @@ footer{
 /*Fin animaciones sección Interior - Exterior*/
 
 /*Inicio media index*/
-@media (max-width: 768px){
+@media (max-width: 640px){
     h1{
         font-size:40px;
     }
@@ -189,15 +189,23 @@ footer{
         align-items: center;
     } 
      footer{
-        flex-direction: column;     
+        flex-direction: column;
+        height: 200px;
     }
     .footer__sub{
-        margin-top: 10px;
+        margin-top: 15px;
         font-size: 25px;
         font-weight: lighter;
     }
     .footer__p{
         font-size: 15px;
+    }
+    iframe{
+        display: none;
+    }
+    .grid_container{
+        display:flex;
+        flex-direction: column;
     }
 }
 /*Fin media index*/
